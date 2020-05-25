@@ -1,0 +1,68 @@
+<div class="container">
+    <img src="assets/pic29.jpg" alt="Avatar" class="image">
+    <div class="overlay">Mens Collection</div>
+  </div>
+  <div class='card'>
+    
+   <div class= 'card-body'>
+      <div class='row'>
+        <div class= 'col-md-2'> Filter  by: </div>
+        <div class= 'col-md-4'>
+          <input type = 'text'
+          [(ngModel)] ='listFilter'/>
+        </div>
+      </div>
+    <div class= 'col-md-6'>
+      <h4>Filtered by:{{listFilter}}</h4>
+    </div>
+    </div>
+    <div class= 'table-responsive'>
+      <table class= 'table'
+                *ngIf ='mensproducts && mensproducts.length'>
+        <thead>
+        <tr>
+          <th>
+            <button class= 'btn btn-outline-info'
+            (click) = 'toggleImage()'>
+              {{showImage ? 'Hide' : 'Show'}} Product
+            </button>
+          </th>
+          <th>Product</th>
+          <th>Code </th>
+          <th>Price</th>
+          <th>Sizes</th>
+          <th>Stock</th>
+          <th>Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor = 'let mensproduct of filteredMens'>
+            <td>
+              <img *ngIf = 'showImage' 
+                  [src]= 'mensproduct.imageUrl'
+                  [title] = 'mensproduct.productName'
+                  [style.width.px]='imageWidth'
+                  [style.margin.px] = 'imageMargin'>
+            </td> 
+            <td> <a [routerLink]="['/mens',mensproduct.productId]">
+              {{mensproduct.productName}}
+          </a>
+          </td>
+            <td>{{mensproduct.productCode | lowercase | ConvertToSpaces: '-'}}</td>
+            <td>{{mensproduct.productPrice | currency:'USD':'symbol':'1.2-2' }}</td>
+            <td>{{mensproduct.productSizes}}</td>
+            <td>{{mensproduct.productStock}}</td>
+            <td><pm-star [rating] = 'mensproduct.productRating'
+               (ratingClicked)= 'onRatingClicked($event)'></pm-star></td>
+            
+          </tr>
+        </tbody>
+      </table>
+    
+  </div>
+  
+  <div class= 'container'>
+    <router-outlet></router-outlet>
+    </div>
+  
+    

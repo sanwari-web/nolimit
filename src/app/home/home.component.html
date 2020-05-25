@@ -1,0 +1,181 @@
+
+
+<main role="main">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class=" img-fluid" src="assets/pic21.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class=" img-fluid" src="assets/pic16.jpeg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class=" img-fluid" src="assets/pic23.jpg" alt="Third slide">
+          </div>
+        </div>
+	  </div>
+	  
+	 
+	  <div class="nic container-marketing">
+      <div class="row">
+          <div class="col-lg-4">
+              <img class="rounded circle" src="assets/pic7.jpg" width="140" height="140">
+              <h2>Womens Selections</h2>
+              <p>
+                  <a class="btn btn-secondary" [routerLink]="['/womens'] "role="button">View Items>></a>
+              </p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded circle" src="assets/pic5.jpg" width="140" height="140">
+            <h2>Mens Selections</h2>
+            <p>
+                <a class="btn btn-secondary" [routerLink]="['/mens']" role="button">View Items>></a>
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <img class="rounded circle" src="assets/pic24.jpg" width="140" height="140">
+            <h2>Kids Selections</h2>
+            <p>
+                <a class="btn btn-secondary" [routerLink]="['/children']" role="button">View Items>></a>
+            </p>
+        </div>
+      </div>
+  </div>
+
+  <div class= "container">
+    <router-outlet></router-outlet>
+    </div>
+  </main>
+<br>
+ <div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="text-center text-muted"> <ins>Trending Products</ins> </h2>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+			
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>   
+			
+			<div class="carousel-inner">
+				<div class="item carousel-item active">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="assets/image 3/pic7.jpg" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Girls Frock</h4>
+									<p class="item-price"><span>$16.56</span></p>
+									
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+					
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="assets/image 3/pic10.jpg" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Baby Wear</h4>
+									<p class="item-price"> <span>$17.20</span></p>
+									
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="assets/image1/four.jpg" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Short Dress</h4>
+									<p class="item-price"> <span>$19.47</span></p>
+									
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="item carousel-item">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="assets/image4/pic7.jpg" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Earings</h4>
+									<p class="item-price"><span>$8.56</span></p>
+									
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+                        </div>
+                        
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="assets/image2/pic9.jpg" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Boys T-Shirt</h4>
+									<p class="item-price"> <span>$16.81</span></p>
+									
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="assets/image2/pic5.jpg" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Mens Shirt</h4>
+									<p class="item-price"><span>$13.10</span></p>
+									
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+                        </div>	
+                        
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="assets/image1/two.jpg" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Wrap Dress</h4>
+									<p class="item-price"> <span>$15.56</span></p>
+									
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+				<i class="fa fa-angle-left"></i>
+			</a>
+			<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+				<i class="fa fa-angle-right"></i>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div id="banner">
+	<div id="cloud-scroll"></div>
+  </div>
+  

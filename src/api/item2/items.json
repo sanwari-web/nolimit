@@ -1,0 +1,112 @@
+[
+     {
+          "productId" : 1,
+          "productName" : "Dotted Shirt",
+          "productCode" : "NL-0011",
+          "productDiscription" :"Blue color white dotted shirt",
+          "productSizes": "UK 8,10,12,14",
+          "productPrice" : 12.08,
+          "productStock" :"In Stock",
+          "productRating" :4.0,
+          "imageUrl" :"assets/image2/pic1.jpg"
+         },
+         {
+          "productId" : 2,
+          "productName" : "Blue T-shirt",
+          "productCode" : "NL-0012",
+          "productDiscription" :"Plain blue color fit t-shirt",
+          "productSizes": "UK 8,,12,14",
+          "productPrice" : 14.56,
+          "productStock" :"In Stock",
+          "productRating" :4.7,
+          "imageUrl" :"assets/image2/pic2.jpg"
+         },
+         {
+          "productId" : 3,
+          "productName" : "Printed Shirt",
+          "productCode" : "NL-0013",
+          "productDiscription" :"Casual printed mens shirt",
+          "productSizes": "UK 8,10,12,14",
+          "productPrice" : 17.15,
+          "productStock" :"In Stock",
+          "productRating" :3.9,
+          "imageUrl" :"assets/image2/pic3.jpg"
+         },
+         {
+          "productId" : 4 ,
+          "productName" : "Mens Short",
+          "productCode" : "LH-0014",
+          "productDiscription" :"Casual dark grey mens short",
+          "productSizes": "UK 8,10,12,14",
+          "productPrice" : 16.27,
+          "productStock" :"In Stock",
+          "productRating" :4.4,
+          "imageUrl" :"assets/image2/pic4.jpg"
+         },
+         {
+              "productId" : 5 ,
+              "productName" : "Mens Shirt",
+              "productCode" : "LH-0015",
+              "productDiscription" :"Printed summer wear shirt",
+              "productSizes": "UK 8,10,12",
+              "productPrice" : 13.10,
+              "productStock" :"In Stock",
+              "productRating" :4.8,
+              "imageUrl" :"assets/image2/pic5.jpg"
+             },
+             {
+              "productId" : 6 ,
+              "productName" : "Dark Blue Throuser",
+              "productCode" : "FH-0016",
+              "productDiscription" :"Dark blue formal wear throuser ",
+              "productSizes": "UK 8,12,14",
+              "productPrice" : 16.55,
+              "productStock" :"In Stock",
+              "productRating" :4.9,
+              "imageUrl" :"assets/image2/pic6.jpg"
+             },
+             {
+              "productId" : 7 ,
+              "productName" : "Black T-Shirt",
+              "productCode" : "FH-0017",
+              "productDiscription" :"Adidas Black color mens t-shirt",
+              "productSizes": "UK 10,12,14,16",
+              "productPrice" : 16.56,
+              "productStock" :" Out of Stock",
+              "productRating" : 3.6,
+              "imageUrl" :"assets/image2/pic7.jpg"
+             },
+             {
+              "productId" : 8 ,
+              "productName" : "Mens Throuser",
+              "productCode" : "NL-0018",
+              "productDiscription" :"Badge color mens trouser",
+              "productSizes": "UK 8,10,12,14",
+              "productPrice" : 17.6,
+              "productStock" :"In Stock",
+              "productRating" :4.2,
+              "imageUrl" :"assets/image2/pic8.jpg"
+             },
+             {
+              "productId" : 9 ,
+              "productName" : "Boys T-Shirt",
+              "productCode" : "NL-0019",
+              "productDiscription" :"Red color boys t-shirt",
+              "productSizes": "UK 10,14,16",
+              "productPrice" : 16.81,
+              "productStock" :"In Stock",
+              "productRating" :3.8,
+              "imageUrl" :"assets/image2/pic9.jpg"
+             },
+             {
+              "productId" : 10 ,
+              "productName" : "Mens Shirt",
+              "productCode" : "NL-0020",
+              "productDiscription" :"Blue Linned Mens Shirt",
+              "productSizes": "UK 8,12,14",
+              "productPrice" : 17.20,
+              "productStock" :"Out of Stock",
+              "productRating" :4.5,
+              "imageUrl" :"assets/image2/pic10.jpg"
+             }
+  ]

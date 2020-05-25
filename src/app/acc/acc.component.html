@@ -1,0 +1,68 @@
+<div class="container">
+    <img src="assets/pic31.jpeg" alt="Avatar" class="image">
+    <div class="overlay">Accessories Collection</div>
+  </div>
+  <div class='card'>
+    
+   <div class= 'card-body'>
+      <div class='row'>
+        <div class= 'col-md-2'> Filter  by: </div>
+        <div class= 'col-md-4'>
+          <input type = 'text'
+          [(ngModel)] ='listFilter'/>
+        </div>
+      </div>
+    <div class= 'col-md-6'>
+      <h4>Filtered by:{{listFilter}}</h4>
+    </div>
+    </div>
+    <div class= 'table-responsive'>
+      <table class= 'table'
+                *ngIf ='accproducts && accproducts.length'>
+        <thead>
+        <tr>
+          <th>
+            <button class= 'btn btn-outline-info'
+            (click) = 'toggleImage()'>
+              {{showImage ? 'Hide' : 'Show'}} Product
+            </button>
+          </th>
+          <th>Product</th>
+          <th>Code </th>
+          <th>Price</th>
+          <th>Sizes</th>
+          <th>Stock</th>
+          <th>Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor = 'let accproduct of filteredAcc'>
+            <td>
+              <img *ngIf = 'showImage' 
+                  [src]= 'accproduct.imageUrl'
+                  [title] = 'accproduct.productName'
+                  [style.width.px]='imageWidth'
+                  [style.margin.px] = 'imageMargin'>
+            </td> 
+            <td> <a [routerLink]="['/acc',accproduct.productId]">
+              {{accproduct.productName}}
+          </a>
+          </td>
+            <td>{{accproduct.productCode | lowercase | ConvertToSpaces: '-'}}</td>
+            <td>{{accproduct.productPrice | currency:'USD':'symbol':'1.2-2' }}</td>
+            <td>{{accproduct.productSizes}}</td>
+            <td>{{accproduct.productStock}}</td>
+            <td><pm-star [rating] = 'accproduct.productRating'
+               (ratingClicked)= 'onRatingClicked($event)'></pm-star></td>
+            
+          </tr>
+        </tbody>
+      </table>
+    
+  </div>
+  
+  <div class= 'container'>
+    <router-outlet></router-outlet>
+    </div>
+  
+    

@@ -1,0 +1,111 @@
+[
+     {
+          "productId" : 1,
+          "productName" : "Dotted Shirt",
+          "productCode" : "NL-0031",
+          "productDiscription" :"Blue color white dotted shirt",
+          "productSizes": "UK 8,10,12,14",
+          "productPrice" : 10.50,
+          "productStock" :"In Stock",
+          "productRating" :4.0,
+          "imageUrl" :"assets/image4/pic1.jpg"
+         },
+         {
+          "productId" : 2,
+          "productName" : "Blue T-shirt",
+          "productCode" : "NL-0032",
+          "productDiscription" :"Plain blue color fit t-shirt",
+          "productSizes": "UK 8,,12,14",
+          "productPrice" : 12.56,
+          "productStock" :"In Stock",
+          "productRating" :4.7,
+          "imageUrl" :"assets/image4/pic2.jpg"
+         },
+         {
+          "productId" : 3,
+          "productName" : "Printed Shirt",
+          "productCode" : "NL-0033",
+          "productDiscription" :"Casual printed mens shirt",
+          "productSizes": "UK 8,10,12,14",
+          "productPrice" : 11.15,
+          "productStock" :"In Stock",
+          "productRating" :3.9,
+          "imageUrl" :"assets/image4/pic3.jpg"
+         },
+         {
+          "productId" : 4 ,
+          "productName" : "Mens Short",
+          "productCode" : "LH-0034",
+          "productDiscription" :"Casual dark grey mens short",
+          "productSizes": "UK 8,10,12,14",
+          "productPrice" : 13.27,
+          "productStock" :"In Stock",
+          "productRating" :4.4,
+          "imageUrl" :"assets/image4/pic4.jpg"
+         },
+         {
+              "productId" : 5 ,
+              "productName" : "Mens Shirt",
+              "productCode" : "LH-0035",
+              "productDiscription" :"Printed summer wear shirt",
+              "productSizes": "UK 8,10,12",
+              "productPrice" : 10.10,
+              "productStock" :"In Stock",
+              "productRating" :4.8,
+              "imageUrl" :"assets/image4/pic5.jpg"
+             },
+             {
+              "productId" : 6 ,
+              "productName" : "Dark Blue Throuser",
+              "productCode" : "FH-0036",
+              "productDiscription" :"Dark blue formal wear throuser ",
+              "productSizes": "UK 8,12,14",
+              "productPrice" : 9.55,
+              "productStock" :"In Stock",
+              "productRating" :4.9,
+              "imageUrl" :"assets/image4/pic6.jpg"
+             },
+             {
+              "productId" : 7 ,
+              "productName" : "Tussel Earigs",
+              "productCode" : "FH-0037",
+              "productDiscription" :"Silver color tussle earings",
+              "productSizes": "UK 10,12,14,16",
+              "productPrice" : 8.56,
+              "productStock" :" Out of Stock",
+              "productRating" : 3.6,
+              "imageUrl" :"assets/image4/pic7.jpg"
+             },
+             {
+              "productId" : 8 ,
+              "productName" : "Ladies High Heel",
+              "productCode" : "NL-0038",
+              "productDiscription" :"Cream color dusted ladies high heel",
+              "productSizes": "UK 8,10,12,14",
+              "productPrice" : 17.6,
+              "productStock" :"In Stock",
+              "productRating" :4.2,
+              "imageUrl" :"assets/image4/pic8.jpg"
+             },
+             {
+              "productId" : 9 ,
+              "productName" : "Boys Shoes",
+              "productCode" : "NL-0039",
+              "productDiscription" :"Bluecolor boys shoes",
+              "productSizes": "UK 10,14,16",
+              "productPrice" : 15.81,
+              "productStock" :"In Stock",
+              "productRating" :3.8,
+              "imageUrl" :"assets/image4/pic9.jpg"
+             },
+             {
+              "productId" : 10 ,
+              "productName" : "Matte Lipsticks",
+              "productCode" : "NL-0040",
+              "productDiscription" :"Pink color Matte three lipsticks",
+              "productPrice" : 10.20,
+              "productStock" :"Out of Stock",
+              "productRating" :4.5,
+              "imageUrl" :"assets/image4/pic10.jpg"
+             }
+  ]

@@ -1,0 +1,113 @@
+[
+    {
+    "productId" : 1,
+    "productName" : "Teenage T Shirt",
+    "productCode" : "NL-0001",
+    "productDiscription" :"Black color printed tshirt",
+    "productSizes": "UK 8,10,12",
+    "productPrice" : 8.08,
+    "productStock" :"In Stock",
+    "productRating" :4.3,
+    "imageUrl" :"assets/image1/one.jpg"
+   },
+   {
+    "productId" : 2,
+    "productName" : "Wrap Dress",
+    "productCode" : "NL-0002",
+    "productDiscription" :"Short sleeve printed wrap dress",
+    "productSizes": "UK 8,10,12,14",
+    "productPrice" : 15.56,
+    "productStock" :"In Stock",
+    "productRating" :4.7,
+    "imageUrl" :"assets/image1/two.jpg"
+   },
+   {
+    "productId" : 3,
+    "productName" : "Casual Trouser",
+    "productCode" : "NL-0003",
+    "productDiscription" :"Office wear checked trouser",
+    "productSizes": "UK 8,12,14",
+    "productPrice" : 18.15,
+    "productStock" :"Out of Stock",
+    "productRating" :3.9,
+    "imageUrl" :"assets/image1/three.jpg"
+   },
+   {
+    "productId" : 4 ,
+    "productName" : "Short Dress",
+    "productCode" : "LH-0004",
+    "productDiscription" :"White color sleeveless embroided dress",
+    "productSizes": "UK 10,12,14",
+    "productPrice" : 19.47,
+    "productStock" :"In Stock",
+    "productRating" :4.0,
+    "imageUrl" :"assets/image1/four.jpg"
+   },
+   {
+        "productId" : 5 ,
+        "productName" : "Off Sholder Blouse",
+        "productCode" : "LH-0005",
+        "productDiscription" :"Off sholder printed blouse",
+        "productSizes": "UK 10,12,14",
+        "productPrice" : 15.00,
+        "productStock" :"In Stock",
+        "productRating" :4.8,
+        "imageUrl" :"assets/image1/five.jpg"
+       },
+       {
+        "productId" : 6 ,
+        "productName" : "Short Dress",
+        "productCode" : "FH-0006",
+        "productDiscription" :"Blue color dotted dress",
+        "productSizes": "UK 8,12,14",
+        "productPrice" : 15.45,
+        "productStock" :"In Stock",
+        "productRating" :4.2,
+        "imageUrl" :"assets/image1/six.jpg"
+       },
+       {
+        "productId" : 7 ,
+        "productName" : "Fashion Denim",
+        "productCode" : "FH-0007",
+        "productDiscription" :"Womens blue denim",
+        "productSizes": "UK 10,12,16",
+        "productPrice" : 18.56,
+        "productStock" :" Out of Stock",
+        "productRating" : 3.9,
+        "imageUrl" :"assets/image1/seven.jpg"
+       },
+       {
+        "productId" : 8 ,
+        "productName" : "Womens Dress",
+        "productCode" : "NL-0008",
+        "productDiscription" :"Sleevless short dress",
+        "productSizes": "UK 8,10,12,14",
+        "productPrice" : 17.6,
+        "productStock" :"In Stock",
+        "productRating" :4.2,
+        "imageUrl" :"assets/image1/eight.jpg"
+       },
+       {
+        "productId" : 9 ,
+        "productName" : "Sleeveless dress",
+        "productCode" : "NL-0009",
+        "productDiscription" :"Blue color linned sleevless dress",
+        "productSizes": "UK 10,14,16",
+        "productPrice" : 16.8,
+        "productStock" :"In Stock",
+        "productRating" :4.8,
+        "imageUrl" :"assets/image1/nine.jpg"
+       },
+       {
+        "productId" : 10 ,
+        "productName" : "Skinny Blouse",
+        "productCode" : "NL-0010",
+        "productDiscription" :"Blue Linned Skinny Blouse",
+        "productSizes": "UK 8,10,12,14",
+        "productPrice" : 17.00,
+        "productStock" :"Out of Stock",
+        "productRating" :3.5,
+        "imageUrl" :"assets/image1/ten.jpg"
+       }
+   
+  ]

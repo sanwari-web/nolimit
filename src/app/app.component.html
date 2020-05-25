@@ -1,0 +1,68 @@
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="color: black;">
+      <a class="navbar-brand" >
+        <img src="assets/pic1.png" width="60" height="40" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link waves-effect waves-light" [routerLink]="['/home']">Home
+              <span class='sr-only'>(current)</span>
+          </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" [routerLink]="['/womens']">Womens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" [routerLink]="['/mens']">Mens</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle waves-effect waves-light" role="button" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other<span class="caret"></span>
+            </a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item waves-effect waves-light" [routerLink]="['/children']">Children</a>
+              <a class="dropdown-item waves-effect waves-light" [routerLink]="['/acc']">Accessories
+              </a>
+              <a class="dropdown-item waves-effect waves-light" [routerLink]="['/about']">About</a>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav ml-auto">
+          <a href="https://www.facebook.com/nolimitfashion/" class="nav-link"><i class="fa fa-facebook fa-lg"></i></a>
+      <li>
+          <a href="https://twitter.com/nolimit_lk?lang=en" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a>
+      <li>
+          <a href="https://www.instagram.com/nolimit_srilanka/?hl=en" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a>
+      </li>
+  </ul>
+        <form class="form-inline">
+          <div class="container h-100">
+            <div class="d-flex justify-content-center h-100">
+              <div class="searchbar">
+                <input class="search_input" type="text" name="" placeholder="Search...">
+                <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </nav>
+  
+
+  
+
+
+
+
+    
+    <div class= "container">
+      <router-outlet></router-outlet>
+      </div>
+    <div style="height: 40px"></div>
+
+  </body>

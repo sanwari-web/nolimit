@@ -1,0 +1,200 @@
+.carousel-item .img-fluid { width:100%; height:100%; }
+.carousel {
+  box-sizing: border-box;
+  margin-bottom: 50px; 
+}
+
+
+
+
+
+#nic.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+#nic.marketing h2 {
+  font-weight: 400;
+}
+#nic.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+.body {
+	font-family: "Open Sans", sans-serif;
+}
+.h2 {
+	color: rgb(253, 249, 7);
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 80px;
+}
+.h2  {
+	color: #ffc000;
+}
+.h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.2);
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+#myCarousel.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+#myCarousel.carousel .item {
+	min-height: 500px;
+    text-align: center;
+	overflow: hidden;
+}
+#myCarousel.carousel .item .img-box {
+	height: 300px;
+	width: 300px;
+	position: relative;
+}
+#myCarousel.carousel .item img {	
+	max-width: 200px;
+	max-height: 300px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+#myCarousel.carousel .item h4 {
+	font-size: 18px;
+	margin: 10px 0;
+}
+#myCarousel.carousel .item .btn {
+	color: #333;
+    border-radius: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-top: 5px;
+    line-height: 16px;
+}
+#myCarousel.carousel .item .btn:hover, .carousel .item .btn:focus {
+	color: #fff;
+	background: rgb(252, 252, 252);
+	border-color: #000;
+	box-shadow: none;
+}
+#myCarousel.carousel .item .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#myCarousel.carousel .thumb-wrapper {
+	text-align: center;
+}
+#myCarousel.carousel .thumb-content {
+	padding: 15px;
+}
+#myCarousel.carousel .carousel-control {
+	height: 100px;
+    width: 40px;
+    background: none;
+    margin: auto 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+#myCarousel.carousel .carousel-control i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -16px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+#myCarousel.carousel .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+
+#myCarousel.carousel .item-price span {
+	color: #86bd57;
+	font-size: 110%;
+}
+#myCarousel.carousel .carousel-control.left i {
+	margin-left: -3px;
+}
+#myCarousel.carousel .carousel-control.left i {
+	margin-right: -3px;
+}
+#myCarousel.carousel .carousel-indicators {
+	bottom: -50px;
+}
+#myCarousel.carousel-indicators li, .carousel-indicators li.active {
+	width: 5px;
+	height: 4px;
+	margin: 4px;
+	border-radius: 50%;
+	border-color: transparent;
+}
+#myCarousel.carousel-indicators li {	
+	background: rgba(0, 0, 0, 0.2);
+}
+#myCarousel.carousel-indicators li.active {	
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#banner {
+    background-image: linear-gradient(120deg, #91C4FF 0%, #F0F7FF 87%);
+    position: relative;
+    width: 100%;
+    height: 450px;
+  }
+  
+  #cloud-scroll {
+    background: url(./pic40.jpg) repeat-x;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    -webkit-animation: 900000s backgroundScroll infinite linear;
+    -moz-animation: 900000s backgroundScroll infinite linear;
+    -o-animation: 900000s backgroundScroll infinite linear;
+    -ms-animation: 900000s backgroundScroll infinite linear;
+    animation: 900000s backgroundScroll infinite linear;
+  }
+  
+  @-webkit-keyframes backgroundScroll {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -99999999px 0;
+    }
+  }
+  
+  @keyframes backgroundScroll {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -99999999px 0;
+    }
+  }
+
+
+  

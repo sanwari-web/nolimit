@@ -1,0 +1,112 @@
+[
+     {
+          "productId" : 1,
+          "productName" : "Baby Wear",
+          "productCode" : "NL-0021",
+          "productDiscription" :"Black color little baby dress",
+          "productSizes": "UK 8,10,12,14",
+          "productPrice" : 12.48,
+          "productStock" :"In Stock",
+          "productRating" :4.1,
+          "imageUrl" :"assets/image 3/pi1.jpg"
+         },
+         {
+          "productId" : 2,
+          "productName" : "Girls Party Dress",
+          "productCode" : "NL-0022",
+          "productDiscription" :"Girls pink color party dress",
+          "productSizes": "UK 8,,12,14",
+          "productPrice" : 15.56,
+          "productStock" :"Out of Stock",
+          "productRating" :4.6,
+          "imageUrl" :"assets/image 3/pic2.jpg"
+         },
+         {
+          "productId" : 3,
+          "productName" : "Girls Short",
+          "productCode" : "NL-0023",
+          "productDiscription" :"Ble color denim short",
+          "productSizes": "UK 8,10,12,14",
+          "productPrice" : 17.15,
+          "productStock" :"In Stock",
+          "productRating" :3.2,
+          "imageUrl" :"assets/image 3/pic3.jpg"
+         },
+         {
+          "productId" : 4 ,
+          "productName" : "Boys Denim",
+          "productCode" : "LH-0024",
+          "productDiscription" :"Blue color boys denim",
+          "productSizes": "UK 8,10,12,14",
+          "productPrice" : 16.27,
+          "productStock" :"In Stock",
+          "productRating" :4.5,
+          "imageUrl" :"assets/image 3/pic4.jpg"
+         },
+         {
+              "productId" : 5 ,
+              "productName" : "Boys Jumpsuit",
+              "productCode" : "LH-0025",
+              "productDiscription" :"Little boys jumpsuite for age 2-4",
+              "productSizes": "UK 8,10,12",
+              "productPrice" : 13.10,
+              "productStock" :"In Stock",
+              "productRating" :4.7,
+              "imageUrl" :"assets/image 3/pic5.jpg"
+             },
+             {
+              "productId" : 6 ,
+              "productName" : "Girls Frock",
+              "productCode" : "FH-0026",
+              "productDiscription" :"Blue color checked frock ",
+              "productSizes": "UK 8,12,14",
+              "productPrice" : 16.55,
+              "productStock" :"In Stock",
+              "productRating" :5.0,
+              "imageUrl" :"assets/image 3/pic6.jpg"
+             },
+             {
+              "productId" : 7 ,
+              "productName" : "Girls Frock",
+              "productCode" : "FH-0027",
+              "productDiscription" :"Yellow color flowery frock",
+              "productSizes": "UK 10,12,14,16",
+              "productPrice" : 16.56,
+              "productStock" :" Out of Stock",
+              "productRating" : 3.5,
+              "imageUrl" :"assets/image 3/pic7.jpg"
+             },
+             {
+              "productId" : 8 ,
+              "productName" : "Baby wear",
+              "productCode" : "NL-0028",
+              "productDiscription" :"Three baby wear pack",
+              "productSizes": "UK 8,10,12,14",
+              "productPrice" : 17.6,
+              "productStock" :"In Stock",
+              "productRating" :4.1,
+              "imageUrl" :"assets/image 3/pic8.jpg"
+             },
+             {
+              "productId" : 9 ,
+              "productName" : "Boys T-Shirt",
+              "productCode" : "NL-0029",
+              "productDiscription" :"Red color lined boys t-shirt",
+              "productSizes": "UK 10,14,16",
+              "productPrice" : 16.81,
+              "productStock" :"In Stock",
+              "productRating" :3.9,
+              "imageUrl" :"assets/image 3/pic9.jpg"
+             },
+             {
+              "productId" : 10 ,
+              "productName" : "Baby wear",
+              "productCode" : "NL-0030",
+              "productDiscription" :"Pnda theam bath robe",
+              "productSizes": "UK 8,12,14",
+              "productPrice" : 17.20,
+              "productStock" :"In Stock",
+              "productRating" :4.4,
+              "imageUrl" :"assets/image 3/pic10.jpg"
+             }
+  ]

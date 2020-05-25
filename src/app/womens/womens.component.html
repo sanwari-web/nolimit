@@ -1,0 +1,69 @@
+<div class="container">
+  <img src="assets/pic28.jpeg" alt="Avatar" class="image">
+  <div class="overlay">Womens Collection</div>
+</div>
+<div class='card'>
+  
+ <div class= 'card-body'>
+    <div class='row'>
+      <div class= 'col-md-2'> Filter  by: </div>
+      <div class= 'col-md-4'>
+        <input type = 'text'
+        [(ngModel)] ='listFilter'/>
+      </div>
+    </div>
+  <div class= 'col-md-6'>
+    <h4>Filtered by:{{listFilter}}</h4>
+  </div>
+  </div>
+  <div class= 'table-responsive'>
+    <table class= 'table'
+              *ngIf ='womensproducts && womensproducts.length'>
+      <thead>
+      <tr>
+        <th>
+          <button class= 'btn btn-outline-info'
+          (click) = 'toggleImage()'>
+            {{showImage ? 'Hide' : 'Show'}} Product
+          </button>
+        </th>
+        <th>Product</th>
+        <th>Code </th>
+        <th>Price</th>
+        <th>Sizes</th>
+        <th>Stock</th>
+        <th>Rating</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor = 'let womensproduct of filteredWomens'>
+          <td>
+            <img *ngIf = 'showImage' 
+                [src]= 'womensproduct.imageUrl'
+                [title] = 'womensproduct.productName'
+                [style.width.px]='imageWidth'
+                [style.margin.px] = 'imageMargin'>
+          </td> 
+          <td> <a [routerLink]="['/womens',womensproduct.productId]">
+            {{womensproduct.productName}}
+        </a>
+        </td>
+          <td>{{womensproduct.productCode | lowercase | ConvertToSpaces: '-'}}</td>
+          <td>{{womensproduct.productPrice | currency:'USD':'symbol':'1.2-2' }}</td>
+          <td>{{womensproduct.productSizes}}</td>
+          <td>{{womensproduct.productStock}}</td>
+          <td><pm-star [rating] = 'womensproduct.productRating'
+             (ratingClicked)= 'onRatingClicked($event)'></pm-star></td>
+          
+        </tr>
+      </tbody>
+    </table>
+  
+</div>
+
+<div class= 'container'>
+  <router-outlet></router-outlet>
+  </div>
+
+
+  

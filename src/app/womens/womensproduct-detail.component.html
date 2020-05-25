@@ -1,0 +1,28 @@
+<section>
+<div class="product">
+  <div class="imgbox"> 
+    <img [src]='womensproducts.imageUrl'> </div>
+  <div class="specifies">
+      <h2>{{womensproducts.productName}} <br> <span>{{womensproducts.productCode | lowercase | ConvertToSpaces: '-'}}</span></h2>
+      <div class="price">{{womensproducts.productPrice|currency:'USD':'symbol'}}</div> <label>Sizes : </label>
+      <ul>
+        {{womensproducts.productSizes}}
+      </ul> 
+      <label>Availability : {{womensproducts.productStock}}</label> 
+       
+      <label> Description: {{womensproducts.productDiscription}}</label>
+      <div class ="rating">Rating <pm-star [rating]='womensproducts.productRating'>
+      </pm-star></div>
+      <button class="btn btn-outline-info">Buy Now</button>
+  </div>
+</div>
+
+<div class='container'>
+  <button class= 'btn btn btn-outline-info'
+      (click) = 'onBack()'
+      style = 'width:80px'>
+      <i class = 'fa fa-chevron-left'></i> Back
+  </button>
+</div>
+
+</section>
